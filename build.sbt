@@ -15,12 +15,6 @@ lazy val coreJVM = core.jvm
 
 lazy val coreJS = core.js
 
-lazy val each = crossProject.crossType(CrossType.Pure).dependsOn(core, `comprehension-monad`)
-
-lazy val eachJVM = each.jvm
-
-lazy val eachJS = each.js
-
 lazy val `comprehension-monad` = crossProject.crossType(CrossType.Pure)
 
 lazy val `comprehension-monadJVM` = `comprehension-monad`.jvm
