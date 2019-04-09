@@ -21,22 +21,4 @@ lazy val `comprehension-monadJVM` = `comprehension-monad`.jvm
 
 lazy val `comprehension-monadJS` = `comprehension-monad`.js
 
-lazy val future = crossProject.crossType(CrossType.Pure).dependsOn(core)
-
-lazy val futureJS = future.js
-
-lazy val futureJVM = future.jvm
-
-lazy val source = crossProject.crossType(CrossType.Pure).dependsOn(core)
-
-lazy val sourceJS = source.js
-
-lazy val sourceJVM = source.jvm
-
-lazy val gen = crossProject.crossType(CrossType.Pure).dependsOn(core)
-
-lazy val genJS = gen.js
-
-lazy val genJVM = gen.jvm
-
 startYear in ThisBuild := Some(2015)
