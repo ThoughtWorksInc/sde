@@ -22,3 +22,5 @@ lazy val `comprehension-monadJVM` = `comprehension-monad`.jvm
 lazy val `comprehension-monadJS` = `comprehension-monad`.js
 
 startYear in ThisBuild := Some(2015)
+
+ThisBuild / useCoursier := false
