@@ -1,3 +1,5 @@
+import sbtcrossproject.CrossPlugin.autoImport.{crossProject, CrossType} 
+
 organization in ThisBuild := "com.thoughtworks.sde"
 
 publish / skip := true
