@@ -2,3 +2,6 @@ target/
 local.sbt
 secret/
 *.class
+.metals/
+.bloop/
+project/metals.sbt
